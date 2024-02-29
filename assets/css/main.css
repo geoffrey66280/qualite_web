@@ -5,3 +5,11 @@
 .validInput:valid {
   border: 1px solid rgb(100, 194, 100);
 }
+
+.nav-aria {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  position: absolute;
+  top: -21000px;
+  width: 100%;
+}
