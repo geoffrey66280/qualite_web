@@ -29,10 +29,13 @@
     <header class="mb-3" id="haut-page">
       <div class="d-flex justify-content-between bg-light p-3">
         <div class="d-flex align-items-center">
-          <a href="index.html"
+          <a
+            aria-label="Retour page accueil"
+            title="Retour page accueil"
+            href="index.html"
             ><img
               src="assets/img/logo_oiseau.avif"
-              title="Retour page accueil"
+              alt="logo de oiseau"
               width="60"
           /></a>
           <p class="ms-5 mb-0">Article Culture</p>
@@ -175,16 +178,22 @@
 
       <section class="p-4" id="commentaires_ancre">
         <h2>Commentaires</h2>
-        <div role="comment" class="border border-secondary rounded p-2 mb-3">
+        <article
+          role="comment"
+          class="border border-secondary rounded p-2 mb-3"
+        >
           <p>
             <strong>Joseph :</strong> Je ne suis pas d'accord avec cet article
           </p>
-        </div>
-        <div role="comment" class="border border-secondary rounded p-2 mb-3">
+        </article>
+        <article
+          role="comment"
+          class="border border-secondary rounded p-2 mb-3"
+        >
           <p>
             <strong>Eddy :</strong> Mince je pensais que c'était une bonne idée
           </p>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="bg-dark text-white text-center py-3 mt-3" id="bas-page">
